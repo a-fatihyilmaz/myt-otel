@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/myt-otel/static/css/main.855db211.css",
+    "main.js": "/myt-otel/static/js/main.8b091939.js",
+    "static/js/453.98b76ade.chunk.js": "/myt-otel/static/js/453.98b76ade.chunk.js",
+    "index.html": "/myt-otel/index.html",
+    "main.855db211.css.map": "/myt-otel/static/css/main.855db211.css.map",
+    "main.8b091939.js.map": "/myt-otel/static/js/main.8b091939.js.map",
+    "453.98b76ade.chunk.js.map": "/myt-otel/static/js/453.98b76ade.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.855db211.css",
+    "static/js/main.8b091939.js"
+  ]
+}
