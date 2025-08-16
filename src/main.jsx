@@ -185,33 +185,33 @@ function HomePage({ navigate, user }) {
         {
             title: "Konforlu Konaklama Deneyimi",
             description: "Myt Otel'de her odamız, misafirlerimizin konforu ve rahatlığı düşünülerek özenle tasarlanmıştır. Modern mobilyalar, lüks yatak takımları ve en yeni teknolojik olanaklar ile donatılmış odalarımızda, evinizdeki sıcaklığı ve huzuru bulacaksınız. Unutulmaz bir konaklama deneyimi için sizi bekliyoruz.",
-            imageUrl: "https://cdn.tatilsepeti.com/Files/Images/Tesis/01331/1050X700/tsr01331638720126746852129.jpg",
+            imageUrl: "https://images.unsplash.com/photo-1578683010236-d7168526d30b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             imageLeft: true
         },
         {
             title: "Şehrin Kalbinde Merkezi Konum",
             description: "Myt Otel, şehrin en canlı ve merkezi noktalarından birinde konumlanmıştır. İş merkezlerine, alışveriş bölgelerine, tarihi ve kültürel mekanlara kolayca ulaşabilirsiniz. Toplu taşıma duraklarına yakınlığımız sayesinde şehrin her yerine rahatça erişim sağlayabilirsiniz.",
-            imageUrl: "https://cdn.tatilsepeti.com/Files/Images/Tesis/01331/1050X700/tsr01331638720127292171569.jpg",
+            imageUrl: "https://images.unsplash.com/photo-1582719478252-678ba461d1fc?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             imageLeft: false
         },
         {
             title: "Güler Yüzlü ve Profesyonel Hizmet",
             description: "Myt Otel ekibi olarak, misafir memnuniyetini en üst düzeyde tutmayı hedefliyoruz. Güler yüzlü ve deneyimli personelimiz, konaklamanız boyunca her türlü ihtiyacınızda size yardımcı olmaktan mutluluk duyacaktır. Kişiye özel hizmet anlayışımızla, kendinizi özel hissedeceksiniz.",
-            imageUrl: "https://cdn.tatilsepeti.com/Files/Images/Tesis/01331/1050X700/tsr01331638385937360711588.jpg",
+            imageUrl: "https://images.unsplash.com/photo-1551882547-ff40c6340428?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             imageLeft: true
         },
         {
             title: "Zengin Olanaklar ve Aktiviteler",
             description: "Konaklamanızı daha keyifli hale getirmek için çeşitli olanaklar sunuyoruz. Kapalı yüzme havuzumuzda serinleyebilir, tam donanımlı spor salonumuzda formunuzu koruyabilir, rahatlatıcı spa merkezimizde dinlenebilirsiniz. Ayrıca, otelimizin gurme restoranında eşsiz lezzetleri deneyimleyebilirsiniz.",
-            imageUrl: "https://cdn.tatilsepeti.com/Files/Images/Tesis/01331/1050X700/tsr01331638385936958363915.jpg",
+            imageUrl: "https://images.unsplash.com/photo-1571900138541-e47854483733?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             imageLeft: false
         }
     ];
 
     const defaultRoomTypeImages = [
-        "https://cdn.tatilsepeti.com/Files/Images/TesisOda/01331/850x567/tsr01331638720153073874483.jpg",
-        "https://cdn.tatilsepeti.com/Files/Images/TesisOda/01331/850x567/tsr01331638652894841805870.jpg",
-        "https://cdn.tatilsepeti.com/Files/Images/TesisOda/01331/850x567/tsr01331638628790750809853.jpg",
+        "https://images.unsplash.com/photo-1618773959845-749e75b927e5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1590447190130-109062259160?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1582719473617-6d635c9110b6?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1543946207-39c065a4847e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1582719502621-e8d1217e99b0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1596394516010-cd177695029a?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -326,6 +326,7 @@ function HomePage({ navigate, user }) {
                                             <p>Toplam Oda: {room.totalRooms}</p>
                                             <p>Dolu Oda: {room.bookedRooms || 0}</p>
                                             <p>Mevcut Oda: {availableRooms}</p>
+                                            <p>Durum: {availableRooms > 0 ? <span className="text-green-600 font-semibold">Müsait</span> : <span className="text-red-600 font-semibold">Dolu</span>}</p>
                                         </div>
                                         {availableRooms > 0 ? (
                                             <button
@@ -341,7 +342,7 @@ function HomePage({ navigate, user }) {
                                 );
                             })
                         ) : (
-                            <p className="text-gray-600 col-span-full text-center">Oda tipleri için giriş yapmalısınız.</p>
+                            <p className="text-gray-600 col-span-full text-center">Henüz oda tipi eklenmedi. Yönetici panelinden ekleyebilirsiniz.</p>
                         )}
                     </div>
                 </section>
@@ -1013,6 +1014,8 @@ function AdminPanel({ user, navigate }) {
     const [showMessageBox, setShowMessageBox] = useState(false);
     const [messageContent, setMessageContent] = useState('');
     const [messageType, setMessageBoxType] = useState('');
+    const [filterStartDate, setFilterStartDate] = useState('');
+    const [filterEndDate, setFilterEndDate] = useState('');
 
     const showMessage = (message, type) => {
         setMessageContent(message);
@@ -1030,20 +1033,16 @@ function AdminPanel({ user, navigate }) {
         const reservationsColRef = collection(db, getCollectionPath('reservations'));
         const unsubscribeReservations = onSnapshot(reservationsColRef, (snapshot) => {
             const res = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-            console.log("AdminPanel - Fetched Reservations:", res);
             setReservations(res.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)));
         }, (error) => {
-            console.error("Rezervasyonlar çekilirken hata oluştu:", error);
             showMessage('Rezervasyonlar yüklenirken bir hata oluştu.', 'error');
         });
 
         const roomTypesColRef = collection(db, getCollectionPath('roomTypes'));
         const unsubscribeRoomTypes = onSnapshot(roomTypesColRef, (snapshot) => {
             const types = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-            console.log("AdminPanel - Fetched Room Types:", types);
             setRoomTypes(types);
         }, (error) => {
-            console.error("Oda türleri çekilirken hata oluştu:", error);
             showMessage('Oda türleri yüklenirken bir hata oluştu.', 'error');
         });
 
@@ -1170,6 +1169,27 @@ function AdminPanel({ user, navigate }) {
     const bookedRoomsCount = roomTypes.reduce((sum, room) => sum + (room.bookedRooms || 0), 0);
     const availableRoomsCount = totalRoomsCount - bookedRoomsCount;
 
+    const getRoomPrice = (roomTypeId) => {
+        const room = roomTypes.find(r => r.id === roomTypeId);
+        return room ? Number(room.price) : 0;
+    };
+
+    const filteredReservations = reservations.filter(res => {
+        if (!filterStartDate && !filterEndDate) return true;
+        const checkIn = new Date(res.checkInDate);
+        if (filterStartDate && checkIn < new Date(filterStartDate)) return false;
+        if (filterEndDate && checkIn > new Date(filterEndDate)) return false;
+        return true;
+    });
+
+    const totalAmount = filteredReservations.reduce((sum, res) => {
+        if (res.status === 'Onaylandı') {
+            const price = getRoomPrice(res.roomTypeId);
+            const nights = Math.max(1, (new Date(res.checkOutDate) - new Date(res.checkInDate)) / (1000 * 60 * 60 * 24));
+            return sum + price * nights;
+        }
+        return sum;
+    }, 0);
 
     return (
         <div className="min-h-screen bg-gray-100 flex">
@@ -1249,13 +1269,11 @@ function AdminPanel({ user, navigate }) {
                         <p className="text-gray-600 mt-1">Hoş geldiniz, {user?.email || 'Admin'}!</p>
                     </div>
                 </header>
-
                 {showMessageBox && (
                     <div className={`fixed top-4 right-4 p-4 rounded-md shadow-lg z-50 ${messageType === 'success' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'}`}>
                         {messageContent}
                     </div>
                 )}
-
                 {activeTab === 'dashboard' && (
                     <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                         <div className="bg-white p-6 rounded-lg shadow-md border border-blue-200">
@@ -1282,13 +1300,42 @@ function AdminPanel({ user, navigate }) {
                             <h3 className="text-lg font-semibold text-teal-700 mb-2">Mevcut Oda Sayısı</h3>
                             <p className="text-4xl font-bold text-teal-900">{availableRoomsCount}</p>
                         </div>
+                        <div className="bg-white p-6 rounded-lg shadow-md border border-indigo-200">
+                            <h3 className="text-lg font-semibold text-indigo-700 mb-2">Toplam Tutar (Onaylı)</h3>
+                            <p className="text-4xl font-bold text-indigo-900">{totalAmount.toLocaleString('tr-TR', { style: 'currency', currency: 'TRY', maximumFractionDigits: 2 })}</p>
+                        </div>
                     </section>
                 )}
-
                 {activeTab === 'reservations' && (
                     <section className="bg-white p-6 rounded-lg shadow-md">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-6 pb-4 border-b">Tüm Rezervasyonlar</h2>
-                        {reservations.length === 0 ? (
+                        <div className="flex flex-wrap gap-4 mb-6">
+                            <div>
+                                <label className="block text-sm text-gray-700 mb-1">Giriş Tarihi (Başlangıç):</label>
+                                <input
+                                    type="date"
+                                    value={filterStartDate}
+                                    onChange={e => setFilterStartDate(e.target.value)}
+                                    className="border rounded px-2 py-1"
+                                />
+                            </div>
+                            <div>
+                                <label className="block text-sm text-gray-700 mb-1">Giriş Tarihi (Bitiş):</label>
+                                <input
+                                    type="date"
+                                    value={filterEndDate}
+                                    onChange={e => setFilterEndDate(e.target.value)}
+                                    className="border rounded px-2 py-1"
+                                />
+                            </div>
+                            <button
+                                onClick={() => { setFilterStartDate(''); setFilterEndDate(''); }}
+                                className="self-end bg-gray-300 hover:bg-gray-400 text-gray-800 px-3 py-1 rounded"
+                            >
+                                Temizle
+                            </button>
+                        </div>
+                        {filteredReservations.length === 0 ? (
                             <p className="text-gray-600 text-center py-8">Henüz hiç rezervasyon yok.</p>
                         ) : (
                             <div className="overflow-x-auto">
@@ -1301,12 +1348,13 @@ function AdminPanel({ user, navigate }) {
                                             <th className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Giriş</th>
                                             <th className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Çıkış</th>
                                             <th className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Misafir Sayısı</th>
+                                            <th className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Oda Ücreti</th>
                                             <th className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Durum</th>
                                             <th className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">İşlemler</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {reservations.map((res, index) => (
+                                        {filteredReservations.map((res, index) => (
                                             <tr key={res.id} className={`border-b border-gray-200 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-gray-100 transition duration-150`}>
                                                 <td className="py-3 px-4 text-sm text-gray-800">{res.guestName}</td>
                                                 <td className="py-3 px-4 text-sm text-gray-800">{res.guestEmail}</td>
@@ -1314,6 +1362,9 @@ function AdminPanel({ user, navigate }) {
                                                 <td className="py-3 px-4 text-sm text-gray-800">{res.checkInDate}</td>
                                                 <td className="py-3 px-4 text-sm text-gray-800">{res.checkOutDate}</td>
                                                 <td className="py-3 px-4 text-sm text-gray-800">{res.numGuests}</td>
+                                                <td className="py-3 px-4 text-sm text-gray-800">
+                                                    {getRoomPrice(res.roomTypeId).toLocaleString('tr-TR', { style: 'currency', currency: 'TRY', maximumFractionDigits: 2 })}
+                                                </td>
                                                 <td className="py-3 px-4">
                                                     <span className={`px-3 py-1 rounded-full text-xs font-bold shadow-sm ${
                                                         res.status === 'Beklemede' ? 'bg-yellow-200 text-yellow-800' :
@@ -1355,7 +1406,6 @@ function AdminPanel({ user, navigate }) {
                         )}
                     </section>
                 )}
-
                 {activeTab === 'roomTypes' && (
                     <section className="bg-white p-6 rounded-lg shadow-md">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-6 pb-4 border-b">Oda Tipleri Yönetimi</h2>
@@ -1378,8 +1428,8 @@ function AdminPanel({ user, navigate }) {
                                         )}
                                         <h4 className="text-xl font-bold text-gray-900 mb-2">{room.name}</h4>
                                         <p className="text-gray-600 mb-1 text-sm flex-grow">{room.description}</p>
-                                        <p className="text-gray-700 font-semibold mt-2">Fiyat: {room.price} TL</p>
-                                        <div className="text-sm text-gray-500 mt-1">
+                                        <p className="text-lg font-semibold text-blue-600 mb-3">Fiyat: {room.price} TL</p>
+                                        <div className="text-sm text-gray-500 mb-3">
                                             <p>Toplam Oda: {room.totalRooms}</p>
                                             <p>Dolu Oda: {room.bookedRooms || 0}</p>
                                             <p>Mevcut Oda: {room.totalRooms - (room.bookedRooms || 0)}</p>
@@ -1458,7 +1508,6 @@ function ProfilePage({ user, navigate }) {
             const res = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
             setUserReservations(res.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)));
         }, (error) => {
-            console.error("Kullanıcı rezervasyonları çekilirken hata oluştu:", error);
             showMessage('Rezervasyonlarınız yüklenirken bir hata oluştu.', 'error');
         });
 
@@ -1466,23 +1515,23 @@ function ProfilePage({ user, navigate }) {
         const unsubscribeRoomTypes = onSnapshot(roomTypesColRef, (snapshot) => {
             const types = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
             setRoomTypes(types);
-        }, (error) => {
-            console.error("Oda türleri çekilirken hata oluştu:", error);
-        });
-
-
+        }, (error) => {});
         return () => {
             unsubscribeReservations();
             unsubscribeRoomTypes();
         };
     }, [user]);
 
+    const getRoomInfo = (roomTypeId) => {
+        const room = roomTypes.find(r => r.id === roomTypeId);
+        return room || {};
+    };
+
     const handleLogout = async () => {
         try {
             await signOut(auth);
             navigate('/');
         } catch (error) {
-            console.error("Çıkış yaparken hata oluştu:", error);
             showMessage('Çıkış yaparken bir hata oluştu.', 'error');
         }
     };
@@ -1524,17 +1573,14 @@ function ProfilePage({ user, navigate }) {
         }
     };
 
-
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col">
             <Navbar navigate={navigate} user={user} />
-            
             {showMessageBox && (
                 <div className={`fixed top-4 right-4 p-4 rounded-md shadow-lg z-50 ${messageType === 'success' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'}`}>
                     {messageContent}
                 </div>
             )}
-
             <main className="flex-1 p-4 md:p-8 mt-20">
                 <header className="bg-gradient-to-r from-blue-700 to-indigo-800 text-white p-6 rounded-lg shadow-xl mb-8 flex justify-between items-center">
                     <div>
@@ -1570,39 +1616,45 @@ function ProfilePage({ user, navigate }) {
                         )
                     ) : (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {userReservations.map((res, index) => (
-                                <div key={res.id} className="bg-white border border-gray-200 rounded-lg shadow-sm p-5 hover:shadow-md transition duration-200 flex flex-col">
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">{res.roomTypeName}</h3>
-                                    <div className="text-gray-700 text-sm mb-3 flex-grow">
-                                        <p><span className="font-semibold">Giriş:</span> {res.checkInDate}</p>
-                                        <p><span className="font-semibold">Çıkış:</span> {res.checkOutDate}</p>
-                                        <p><span className="font-semibold">Misafir Sayısı:</span> {res.numGuests}</p>
-                                        <p className="mt-2">
-                                            <span className="font-semibold">Durum: </span>
-                                            <span className={`px-3 py-1 rounded-full text-xs font-bold shadow-sm ${
-                                                res.status === 'Beklemede' ? 'bg-yellow-200 text-yellow-800' :
-                                                res.status === 'Onaylandı' ? 'bg-green-200 text-green-800' :
-                                                'bg-red-200 text-red-800'
-                                            }`}>
-                                                {res.status}
-                                            </span>
+                            {userReservations.map((res, index) => {
+                                const room = getRoomInfo(res.roomTypeId);
+                                const availableRooms = room.totalRooms ? room.totalRooms - (room.bookedRooms || 0) : '-';
+                                return (
+                                    <div key={res.id} className="bg-white border border-gray-200 rounded-lg shadow-sm p-5 hover:shadow-md transition duration-200 flex flex-col">
+                                        <h3 className="text-xl font-bold text-gray-900 mb-2">{res.roomTypeName}</h3>
+                                        <div className="text-gray-700 text-sm mb-3 flex-grow">
+                                            <p><span className="font-semibold">Giriş:</span> {res.checkInDate}</p>
+                                            <p><span className="font-semibold">Çıkış:</span> {res.checkOutDate}</p>
+                                            <p><span className="font-semibold">Misafir Sayısı:</span> {res.numGuests}</p>
+                                            <p><span className="font-semibold">Oda Ücreti:</span> {room.price ? `${room.price} TL/Gece` : '-'}</p>
+                                            <p><span className="font-semibold">Müsaitlik:</span> {availableRooms > 0 ? <span className="text-green-600 font-semibold">Müsait</span> : <span className="text-red-600 font-semibold">Dolu</span>}</p>
+                                            <p className="mt-2">
+                                                <span className="font-semibold">Durum: </span>
+                                                <span className={`px-3 py-1 rounded-full text-xs font-bold shadow-sm ${
+                                                    res.status === 'Beklemede' ? 'bg-yellow-200 text-yellow-800' :
+                                                    res.status === 'Onaylandı' ? 'bg-green-200 text-green-800' :
+                                                    'bg-red-200 text-red-800'
+                                                }`}>
+                                                    {res.status}
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p className="text-xs text-gray-500 mt-auto pt-3 border-t border-gray-100">
+                                            Rezervasyon Tarihi: {new Date(res.timestamp).toLocaleDateString('tr-TR', {
+                                                year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+                                            })}
                                         </p>
+                                        {res.status === 'Beklemede' && (
+                                            <button
+                                                onClick={() => confirmCancel(res)}
+                                                className="mt-4 w-full bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-md font-semibold shadow-md transition duration-300"
+                                            >
+                                                Rezervasyonu İptal Et
+                                            </button>
+                                        )}
                                     </div>
-                                    <p className="text-xs text-gray-500 mt-auto pt-3 border-t border-gray-100">
-                                        Rezervasyon Tarihi: {new Date(res.timestamp).toLocaleDateString('tr-TR', {
-                                            year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
-                                        })}
-                                    </p>
-                                    {res.status === 'Beklemede' && (
-                                        <button
-                                            onClick={() => confirmCancel(res)}
-                                            className="mt-4 w-full bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-md font-semibold shadow-md transition duration-300"
-                                        >
-                                            Rezervasyonu İptal Et
-                                        </button>
-                                    )}
-                                </div>
-                            ))}
+                                );
+                            })}
                         </div>
                     )}
                 </section>
